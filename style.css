@@ -1,0 +1,213 @@
+/*importing googlefont*/ 
+ @import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,300;0,400;0,500;0,600;0,700;1,400&display=swap');
+ *{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+   font-family: "Poppins", sans-serif;
+ }
+ :root{
+   /*colors*/
+   --white-color:#ffff;
+   --dark-color:#252525;
+   --primar-color:#3b141c;
+--secondary-color:#f3961c;
+--light-pink-color:#fef4f5;
+--medium-gray-color:#ccc;
+/*font size*/
+--font-size-s:0.9rem; 
+--font-size-n: 1rem;
+--font-size-m:1.12rem; 
+--font-size-l:1.5rem;
+--font-size-xl:2rem
+--font-size-xxl:2.3rem;  
+/*font wight*/
+--font-weight-normal:400 ;
+--font-weight-medium:500;
+--font-weight-semibold:600 ;
+--font-weight-bold:700;
+/*border radius*/
+--sit-max-whidth:1300px;
+
+}
+ /*styling for whole site*/
+ul{
+  list-style: none;
+
+}
+a{
+  text-decoration: none;
+}
+ button{
+  cursor: pointer;
+  border: none;
+  background: none;
+
+ }
+ img{
+  width: 100%;
+ }
+ .section-contnant{
+  max-width: var(--sit-max-whidth);
+   margin: 0 outo;
+   padding: 0 20px;
+}
+ 
+ /*navbar styling */
+
+ header{
+ background:var(--primar-color);
+ }
+ header .navbar{
+  display: flex;
+  padding: 20px;
+  align-items: center;
+  background: var(--primar-color);
+  justify-content: space-between;
+
+ }
+ .navbar .nav-logo .logo-text{
+  color: var(--white-color);
+  font-size: var(--font-size-xl);
+  font-weight: var(--font-weight-semibold);
+
+ }
+ .navbar .nav-menu{
+  display: flex;
+  gap: 10px;
+ }
+.navbar .nav-menu .nav-link{
+  padding: 1px 8px;
+  font-size: var(--font-size-m);
+  color:var(--white-color);
+  border-radius:var( --border-radius-m);
+    transition:0.3s ease;
+}
+.navbar .nav-menu .nav-lin:hover{
+  
+  background: var(--secondary-color);
+}
+.hero-section{
+  min-height: 100vh;
+  background: var(--primar-color);
+}
+.hero-section .section-contenat{
+  display: flex;
+  align-items: center;
+  min-height: 100vh;
+  color:var(--dark-color);
+  justify-content: space-between;
+
+}
+.hero-section .hero-details .titel
+{
+  font-size: var(--font-size-xl);
+  color: var(--secondary-color);
+  font-family: "miniver",sans-serif;
+}
+
+
+.hero-section .hero-details .subtitel
+{
+  margin-top: 8px;
+  max-width:70%;
+  font-size: var(--font-size-xl);
+  font-weight: var(--font-weight-semibold);
+
+
+
+}
+.hero-section .hero-details .description
+{
+  max-width: 70;
+  margin: 24px 0 40px;
+  font-size: var(--font-size-m);
+  font-display:auto;
+}
+.hero-section .hero-details .button
+{
+  padding: 10px 26px;
+  color: var(--primar-color);
+  background-color: var(--secondary-color);
+  border-radius:var(--border-radius-m);
+  font-weight: var(--font-weight-medium);
+}
+
+
+.header{
+	min-height: 100vh;
+	width: 100%;
+
+	background-image:url(ww.gbj.jpg);
+
+	background-position: center;
+	background-size: cover;
+	position: relative;
+  background-position: left;
+  background-size:50;
+  left: 50%;
+  right: 10;
+}
+body
+{
+  background-color: wheat;
+}
+.hero-section .hero-details .description .description .titel{
+ width: 40%;
+	color: white;
+	text-emphasis:end;
+  text-transform: lowercase;
+  text-align: end;
+  text-align: end;
+	top: 2%;
+	left: 10%;
+  nav-down:0%;
+	transform: translate(-50%, -50%);
+text-align: center;
+}
+.p{
+ font-style: var(--font-weight-semibold);
+  font-size: x-large;
+}
+
+.hero-section .hero-details .description
+{
+  max-width: 70%;
+  margin: 24px 0px 40px;
+}
+.hero-section .hero-details.button{
+  display: flex;
+  gap: 23px;
+}
+
+
+
+.hero-section .hero-details .button
+{
+  padding: 10px 26px ;
+  border: 2px solid transparent;
+  color: var(--primar-color);
+  border-radius: var(--border-radius-m);
+  background-color: var(--secondary-color);
+font-weight: var(--font-weight-bold);
+}
+.hero-section .hero-details .button:hover
+{
+ color :var(--white-color); 
+}
+
+.hero-section .hero-image-wrapper
+{
+  max-width: 500px;
+  margin-right: 30px;
+}
+footer{
+  background-color: navy;
+  size: 20px;
+  top: auto;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  font-style: var(--white-color);
+  
+}
+
